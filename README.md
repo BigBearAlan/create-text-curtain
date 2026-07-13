@@ -4,7 +4,7 @@ A dependency-free text field whose vertical character columns behave like wind-d
 
 ## Install the Codex skill
 
-After publishing this repository to GitHub, share this one-line instruction:
+Paste this one-line instruction in your Codex to install and use the skill:
 
 > Install and use the Codex skill from `https://github.com/BigBearAlan/create-text-curtain/tree/main/skills/create-text-curtain` to add a gentle wind-swept beaded text curtain to my project. Follow its `SKILL.md` immediately after installation.
 
