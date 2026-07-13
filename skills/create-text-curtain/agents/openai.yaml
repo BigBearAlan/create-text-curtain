@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Text Curtain"
+  short_description: "Build a wind-swept beaded text curtain"
+  default_prompt: "Use $create-text-curtain to add a subtle, wind-swept beaded text curtain interaction to this project."

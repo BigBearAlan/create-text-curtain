@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A text curtain interaction: move through the text to pull and drape it."
+    />
+    <title>Text Curtain</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">Interactive type study · 01</p>
+        <h1>Text, with a little gravity.</h1>
+        <p class="hint">Move through the field like a breeze passing through the strands.</p>
+      </header>
+
+      <section class="curtain-wrap" aria-label="Interactive text curtain">
+        <canvas id="curtain"></canvas>
+        <p class="fallback">
+          山川异域，风月同天。文字在纸上安静排列，经过指尖时，却像柔软的帘幕一样垂落。
+        </p>
+      </section>
+
+      <footer>
+        <span>Move to disturb</span>
+        <button id="reset" type="button">Still the curtain</button>
+      </footer>
+    </main>
+
+    <script src="curtain.js"></script>
+  </body>
+</html>
