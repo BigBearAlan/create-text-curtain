@@ -8,9 +8,8 @@ Paste this one-line instruction in your Codex to install and use the skill:
 
 > Install and use the Codex skill from `https://github.com/BigBearAlan/create-text-curtain/tree/main/skills/create-text-curtain` to add a gentle wind-swept beaded text curtain to my project. Follow its `SKILL.md` immediately after installation.
 
-The recipient can paste that sentence directly into Codex. Codex's built-in skill installer handles the destination and makes the skill available on the next turn.
 
-After installation, they can ask:
+After installation, you can ask:
 
 > Use `$create-text-curtain` to add a gentle, wind-swept beaded text curtain to this project.
 
@@ -28,8 +27,6 @@ Open `http://localhost:4173` and brush the pointer through the text. Nearby char
 - Independent vertical character strands with pinned tops
 - Pointer collisions, propagated impulses, tension, damping, and pendulum-like settling
 - Responsive density and reduced-motion support
-
-This does not depend on `@chenglou/pretext`. Pretext is a text-measurement and line-layout library; it would be useful if this demo needed arbitrary prose wrapping, but the curtain deformation is custom interaction code.
 
 ## Skill contents
 
